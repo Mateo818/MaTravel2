@@ -209,16 +209,16 @@ footer p {
     text-align: left;
 }
 .lanzarote .zoom{
-    background-image: url("slike/lanzarote/lanzarote.jpg");
+    background-image: url("slike/lanzarote/lanzarote.webp");
 }
 .budimpesta .zoom{
-    background-image: url("slike/budimpesta/budimpesta.jpg");
+    background-image: url("slike/budimpesta/budimpesta.webp");
 }
 .casablanca .zoom{
-    background-image: url("slike/casablanca/casablanca.jpg");
+    background-image: url("slike/casablanca/casablanca.webp");
 }
 .venecija .zoom{
-    background-image: url("slike/venecija/venecija.jpg");
+    background-image: url("slike/venecija/venecija.webp");
 }
 .karticasadrzaj h3{
     font-size: 25px;
@@ -263,7 +263,7 @@ footer p {
 }
 
 .zastobasmi{
-    background-image: url(slike/zastobasmi.jpg);
+    background-image: url("slike/zastobasmi.webp");
     position: relative;
     padding: 80px 0;
     color: #FDF6EC;
@@ -556,27 +556,27 @@ img, video{
     flex-direction: row-reverse;
 }
 .lanzarote{
-    background-image: url("slike/lanzarote/lanzarote.jpg");
+    background-image: url("slike/lanzarote/lanzarote.webp");
 }
 .lanzarote:hover{
-    background-image: url("slike/lanzarote/lanzarote2.jpg");
+    background-image: url("slike/lanzarote/lanzarote2.webp");
     transition: 0.5s ease-in-out;
 }
 .budimpesta{
-    background-image: url("slike/budimpesta/budimpesta.jpg");
+    background-image: url("slike/budimpesta/budimpesta.webp");
 }
 .budimpesta:hover{
-    background-image: url("slike/budimpesta/budimpesta2.jpg");
+    background-image: url("slike/budimpesta/budimpesta2.webp");
     transition: 0.5s ease-in-out;
 }
 .casablanca{
-    background-image: url("slike/casablanca/casablanca.jpg");
+    background-image: url("slike/casablanca/casablanca.webp");
 }
 .venecija{
-    background-image: url("slike/venecija/venecija.jpg");
+    background-image: url("slike/venecija/venecija.webp");
 }
 .venecija:hover{
-    background-image: url("slike/venecija/IMG_3850.jpg");
+    background-image: url("slike/venecija/IMG_3850.webp");
     transition: 0.5s ease-in-out;
 }
 h1{
