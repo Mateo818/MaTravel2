@@ -472,7 +472,7 @@ img, video{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 44vh;
+    height: 404px;
     gap: 1px;
 }
 .destinacijaslika{
