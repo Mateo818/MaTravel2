@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Inter", sans-serif;
     color: #222;
+    font-display: swap;
 }
 
 .container {
@@ -72,9 +74,7 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
     z-index: 10;
     width: 100%;
     backdrop-filter: blur(2px) brightness(0.1);
@@ -459,9 +459,10 @@ img, video{
     max-width: 100%;
     height: auto;
 }
-*{
-    box-sizing: border-box;
+video{
+    pointer-events: none;
 }
+
 
 .tamnija{
     backdrop-filter: blur(2px) brightness(0.32);
@@ -698,6 +699,9 @@ h1{
 .drustvenemreze i{
     font-size: 30px;
     padding-right: 10px;
+}
+html{
+    scroll-behavior: smooth;
 }
 @media (max-width: 1270px) {
     .container{

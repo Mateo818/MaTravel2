@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaTrevel</title>
+    <meta name="description" content="MaTravel je web stranica napravljena za izradu završnog rada. Smisao stranice je da predstavlja agenciju za putovanja kako bih pomoću različitih verzija pokazao optimizaciju stranice.">
+    <title>Destinacije - MaTrevel</title>
+
+    <meta name="author" content="Mateo Ćorković">
     <link rel="stylesheet" href="izgled.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,7 +30,8 @@
             </div>
         </div>
     </header>
-    <div class="prazno"></div>
+    <main>
+        <div class="prazno"></div>
 
     <div class="container">
         <h1>Destinacije</h1>
@@ -42,7 +46,7 @@
                     </div>
                     
                     <h3>Opis</h3>
-                    <p>Vulkanski otok u Španjolskoj poznat po crnim plažama i prirodi. Jedan od Kanarskih otoka smješten je zapadno od Afrike na Atlanskom oceanu. Temperature rijetko padaju ispod 20 stupnjeva pa čak i tijekom zime. 
+                    <p>Vulkanski otok u Španjolskoj poznat po crnim plažama i prirodi. Jedan od Kanarskih otoka smješten je zapadno od Afrike na Atlantskom oceanu. Temperature rijetko padaju ispod 20 stupnjeva pa čak i tijekom zime. 
                     </p>
                     <a href="galerija.html" class="gumbdestinacije">Odaberi</a>
                 </div>
@@ -60,7 +64,7 @@
                         <span><h4><i class="fa-solid fa-thermometer-empty"></i> 20°C</h4></span>
                     </div>
                     <h3>Opis</h3>
-                    <p>Glavni grad Mađarske. Ovo je jedan od najljepših gradova u Europi. Najpoznatiji je po zgradi parlamenta i cipelama na ovali rijeke Dunav. Većina ljudi dolaskom u Budimpeštu ode na plovidbu brodom po Dunavu.</p>
+                    <p>Glavni grad Mađarske. Ovo je jedan od najljepših gradova u Europi. Najpoznatiji je po zgradi parlamenta i cipelama na obali rijeke Dunav. Većina ljudi dolaskom u Budimpeštu ode na plovidbu brodom po Dunavu.</p>
                     <a href="galerija.html" class="gumbdestinacije">Odaberi</a>
                 </div>
                 
@@ -78,7 +82,7 @@
                         <span><h4><i class="fa-solid fa-thermometer-empty"></i> 32°C</h4></span>
                     </div>
                     <h3>Opis</h3>
-                    <p>Moderni marokanski grad uz Atlantski ocean. To je najveći grad u Maroku i glavna luka na Atlanskom ocenu. Grad je najpozantiji po jednoj od najvećih džamija na svijetu i otvorena je za sve.  </p>
+                    <p>Moderni marokanski grad uz Atlantski ocean. To je najveći grad u Maroku i glavna luka na Atlantskom ocenu. Grad je najpozantiji po jednoj od najvećih džamija na svijetu koja je otvorena za sve posjetitelje.  </p>
                     <a href="galerija.html" class="gumbdestinacije">Odaberi</a>
                 </div>
             </div>
@@ -106,35 +110,37 @@
 
     
     
-    <section class="slajdshow skriveno">
+     <section class="slajdshow skriveno">
         <div class="kutijaslajd">
             <div class="slajd active">
-                <img src="slike/slajdshow/venecija.webp">
+                <img src="slike/slajdshow/venecija.webp" loading="lazy" alt="Kanali u Veneciji">
                 <div class="poruka">Putovanja za pamćenje</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/verona.webp">
+                <img src="slike/slajdshow/verona.webp" loading="lazy" alt="Zgrade grada Verona">
                 <div class="poruka">Neka avantura počne</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/lanzarote3.webp">
+                <img src="slike/slajdshow/lanzarote3.webp" loading="lazy" alt="Pogled sa vrha otoka Lanzarote">
                 <div class="poruka">Istraži svijet</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/budapest2.webp">
+                <img src="slike/slajdshow/kamenje.webp" loading="lazy" alt="Kamenje i litice na Lanzaroteu">
                 <div class="poruka">Putovanja za pamćenje</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/zagreb.webp">
+                <img src="slike/slajdshow/zagreb.webp" loading="lazy" alt="Centar grada Zagreba">
                 <div class="poruka">Neka avantura počne</div>
             </div>
         </div>
-         <footer>
-        <p>© 2026 MaTrevel</p>
+    </section>
+    </main>
+    
+    <footer>
+        <p>© 2026 MaTravel</p>
         <p>Izradio: Mateo Ćorković</p>
     </footer>
-    </section>
-   
+    
     <script src="script.js"></script>
 </body>
 </html>

@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaTrevel</title>
+    <meta name="description" content="MaTravel je web stranica napravljena za izradu završnog rada. Smisao stranice je da predstavlja agenciju za putovanja kako bih pomoću različitih verzija pokazao optimizaciju stranice.">
+    <title>MaTrevel - destinacije i putovanja</title>
+    <meta name="author" content="Mateo Ćorković">
     <link rel="stylesheet" href="izgled.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,9 +29,9 @@
             </div>
         </div>
     </header>
-
-    <section class="pocetna skriveno">
-        <video autoplay muted loop playsinline class="pozadinaplaza">
+    <main>
+        <section class="pocetna skriveno">
+        <video autoplay muted loop playsinline class="pozadinaplaza" preload="metadata" poster="slike/thumbnail.webp">
             <source src="video/plaza.mp4" type="video/MP4">
         </video>
 
@@ -133,7 +135,7 @@
                 </div>
                 
                 <div class="opcenitoslika skriveno2">
-                    <img src="slike/opcenitoslika.webp">
+                    <img src="slike/opcenitoslika.webp" loading="lazy" alt="Ilustracija MaTravel stranice">
                 </div>
             </div>
         </div>
@@ -142,31 +144,33 @@
     <section class="slajdshow skriveno">
         <div class="kutijaslajd">
             <div class="slajd active">
-                <img src="slike/slajdshow/venecija.webp">
+                <img src="slike/slajdshow/venecija.webp" loading="lazy" alt="Kanali u Veneciji">
                 <div class="poruka">Putovanja za pamćenje</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/verona.webp">
+                <img src="slike/slajdshow/verona.webp" loading="lazy" alt="Zgrade grada Verona">
                 <div class="poruka">Neka avantura počne</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/lanzarote3.webp">
+                <img src="slike/slajdshow/lanzarote3.webp" loading="lazy" alt="Pogled sa vrha otoka Lanzarote">
                 <div class="poruka">Istraži svijet</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/budapest2.webp">
+                <img src="slike/slajdshow/kamenje.webp" loading="lazy" alt="Kamenje i litice na Lanzaroteu">
                 <div class="poruka">Putovanja za pamćenje</div>
             </div>
             <div class="slajd">
-                <img src="slike/slajdshow/zagreb.webp">
+                <img src="slike/slajdshow/zagreb.webp" loading="lazy" alt="Centar grada Zagreba">
                 <div class="poruka">Neka avantura počne</div>
             </div>
         </div>
-         <footer>
-        <p>© 2026 MaTrevel</p>
+    </section>
+
+    </main>
+    <footer>
+        <p>© 2026 MaTravel</p>
         <p>Izradio: Mateo Ćorković</p>
     </footer>
-    </section>
    
     <script src="script.js"></script>
 </body>
