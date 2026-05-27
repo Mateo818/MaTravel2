@@ -84,14 +84,14 @@
                 <h2 class="cijena">Cijena: 899€ <span class="prekrizeno">1099€</span></h2>
                 <p>6 noćenja - 2 osobe - povratna avionska karta</p>
                 <form class="formarezervacije">
-                    <label>Ime</label>
-                    <input type="text" name="ime">
-                    <label>Prezime</label>
-                    <input type="text" name="prezime">
-                    <label>E-mail</label>
-                    <input type="email" name="email">
-                    <label>Broj osoba</label>
-                    <select>
+                    <label for="ime">Ime</label>
+                    <input type="text" id="ime" name="ime">
+                    <label for="prezime">Prezime</label>
+                    <input type="text" id="prezime" name="prezime">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                    <label for="osobe">Broj osoba</label>
+                    <select id="osobe">
                         <option>1</option>
                         <option selected>2</option>
                         <option>3</option>
@@ -99,8 +99,8 @@
                         <option>5</option>
                         <option>6</option>
                     </select>
-                    <label>Datum putovanja</label>
-                    <input type="date">
+                    <label for="datum">Datum putovanja</label>
+                    <input type="date" id="datum">
                     <button type="submit">Rezerviraj</button>
                 </form>
             </div>
